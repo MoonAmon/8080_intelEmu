@@ -3,4 +3,5 @@ project(8080_intelEmu C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(8080_intelEmu main.c)
+add_executable(8080_intelEmu main.c
+        rom/disassembler.c)
